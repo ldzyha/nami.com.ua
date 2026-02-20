@@ -11,7 +11,7 @@ import styles from './page.module.css';
 
 export const metadata: Metadata = {
   title: 'NAMI | Електросамокати преміум класу в Україні',
-  description: 'Nami електросамокати — преміум клас. Потужність до 8400W, гідравлічна підвіска, великий дисплей. Запас ходу до 120 км. Доставка по Україні.',
+  description: 'Nami електросамокати — повна лінійка від Stellar до Burn-E MAX. Потужність до 8400W, гідравлічна підвіска, NFC, IPX5. Запас ходу до 150 км. 9 моделей. Доставка по Україні.',
   alternates: { canonical: '/' },
 };
 
@@ -25,7 +25,7 @@ export default async function HomePage() {
   const homePageJsonLd = combineSchemas(
     generateWebPageSchema({
       title: 'NAMI | Електросамокати преміум класу',
-      description: 'Nami електросамокати — преміум клас. Потужність до 8400W, гідравлічна підвіска.',
+      description: 'Nami електросамокати — повна лінійка від Stellar до Burn-E MAX. До 8400W потужності.',
       path: '/',
     }),
     generateItemListSchema(
@@ -59,8 +59,8 @@ export default async function HomePage() {
               <MetallicText variant="brandText" as="span">ПРЕМІУМ.</MetallicText>
             </h1>
             <p className={styles.heroSubtitle}>
-              Електросамокати Nami — японська інженерія та преміальна якість.
-              Гідравлічна підвіска, великий дисплей, до 8400W потужності.
+              Повна лінійка Nami Electric — від компактного Stellar до флагманського Burn-E MAX.
+              Гідравлічна підвіска, NFC, IPX5 захист, до 8400W потужності. 9 моделей на будь-який стиль їзди.
             </p>
 
             {heroProduct && heroImage && (
@@ -82,11 +82,11 @@ export default async function HomePage() {
                 <span className={styles.statLabel}>Потужність</span>
               </div>
               <div className={styles.stat}>
-                <span className={styles.statValue}>100 км/год</span>
+                <span className={styles.statValue}>95 км/год</span>
                 <span className={styles.statLabel}>Швидкість</span>
               </div>
               <div className={styles.stat}>
-                <span className={styles.statValue}>120 км</span>
+                <span className={styles.statValue}>150 км</span>
                 <span className={styles.statLabel}>Запас ходу</span>
               </div>
             </div>
@@ -128,16 +128,7 @@ export default async function HomePage() {
             );
           })}
 
-          {allProducts.length <= 1 && (
-            <div className={styles.comingSoon}>
-              <MetallicText variant="platinum" as="p" style={{ fontSize: '18px', fontWeight: 600 }}>
-                Більше моделей незабаром
-              </MetallicText>
-              <p className={styles.comingSoonText}>
-                Слідкуйте за оновленнями — нові моделі Nami з&apos;являться у каталозі найближчим часом.
-              </p>
-            </div>
-          )}
+
         </section>
       </div>
     </>

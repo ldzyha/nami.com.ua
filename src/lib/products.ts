@@ -96,7 +96,10 @@ export interface SeriesConfig {
 }
 
 const seriesConfigs: SeriesConfig[] = [
-  { id: 'burn-e', name: 'Burn-E Series', description: 'Потужність та комфорт у кожній деталі. Гідравлічна підвіска, великий дисплей.', badge: 'BURN-E' },
+  { id: 'burn-e', name: 'Burn-E серія', description: 'Найспортивніші моделі лінійки. Карбонова колонка керма, гідравлічна підвіска KKE 165 мм та максимальна потужність для бездоріжжя та довгих подорожей.', badge: 'BURN-E' },
+  { id: 'blast', name: 'Blast серія', description: 'Універсальний кросовер між містом та передмістям. Запатентована перевернута вилка, гідравлічна підвіска KKE 150 мм та до 100 км запасу ходу.', badge: 'BLAST' },
+  { id: 'klima', name: 'Klima серія', description: 'Компактні та маневрені міські моделі. Гідравлічна підвіска, колеса 11 дюймів, NFC та поворотники — преміум для щоденних поїздок.', badge: 'KLIMA' },
+  { id: 'stellar', name: 'Stellar серія', description: 'Найлегші та найдоступніші моделі Nami. Компактний формат, колеса 9 дюймів, складна конструкція — ідеально для міста та інтермодальності.', badge: 'STELLAR' },
 ];
 
 export function getSeriesInOrder(): SeriesConfig[] { return seriesConfigs; }

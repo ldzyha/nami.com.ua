@@ -1,0 +1,95 @@
+{
+  "burn-e": [
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/Groupe-de-masques-7@2x-1.png",
+      "target": "/products/nami/burn-e-main.webp",
+      "size": "59.3KB"
+    },
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/burn-e-2-min.png",
+      "target": "/products/nami/burn-e-alt.webp",
+      "size": "44.2KB"
+    }
+  ],
+  "burn-e-max": [
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/Groupe-de-masques-7@2x-6.png",
+      "target": "/products/nami/burn-e-max-main.webp",
+      "size": "59.3KB"
+    }
+  ],
+  "blast": [
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/Groupe-de-masques-14@2x.png",
+      "target": "/products/nami/blast-main.webp",
+      "size": "57.3KB"
+    },
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/blast-1.png",
+      "target": "/products/nami/blast-alt.webp",
+      "size": "36.9KB"
+    }
+  ],
+  "blast-max": [
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/Groupe-de-masques-14@2x-1.png",
+      "target": "/products/nami/blast-max-main.webp",
+      "size": "57.3KB"
+    }
+  ],
+  "klima": [
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/Groupe-de-masques-7@2x-2.png",
+      "target": "/products/nami/klima-main.webp",
+      "size": "52.3KB"
+    },
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/klima-2-min.png",
+      "target": "/products/nami/klima-alt.webp",
+      "size": "37.4KB"
+    }
+  ],
+  "klima-max": [
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/Groupe-de-masques-7@2x-5.png",
+      "target": "/products/nami/klima-max-main.webp",
+      "size": "52.3KB"
+    }
+  ],
+  "klima-one": [
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/Groupe-de-masques-7@2x-4.png",
+      "target": "/products/nami/klima-one-main.webp",
+      "size": "59.0KB"
+    },
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/klima-one-1-min.png",
+      "target": "/products/nami/klima-one-alt.webp",
+      "size": "39.6KB"
+    }
+  ],
+  "stellar": [
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/Groupe-de-masques-7@2x-3.png",
+      "target": "/products/nami/stellar-main.webp",
+      "size": "52.9KB"
+    },
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/Stellar-1-min.png",
+      "target": "/products/nami/stellar-alt.webp",
+      "size": "41.1KB"
+    }
+  ],
+  "super-stellar": [
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/Groupe-de-masques-7@2x-7.png",
+      "target": "/products/nami/super-stellar-main.webp",
+      "size": "48.6KB"
+    },
+    {
+      "source": "https://nami-electric.com/wp-content/uploads/2025/07/super-stellar-1-min.png",
+      "target": "/products/nami/super-stellar-alt.webp",
+      "size": "38.0KB"
+    }
+  ]
+}

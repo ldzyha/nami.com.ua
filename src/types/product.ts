@@ -140,5 +140,30 @@ export interface ProductVideo {
 }
 
 export const productVideos: Record<string, ProductVideo[]> = {
-  'burn-e3-max': [{ id: 'XTse9W99-eo', type: 'youtube' }],
+  'burn-e': [
+    { id: 'wKsjiTfrD1o', type: 'youtube' },      // NAMI BURN-E Review — Electric Scooter Guide (EN)
+  ],
+  'burn-e-max': [
+    { id: 'yoYfhevyPtI', type: 'youtube' },      // NAMI BURN-E 2 MAX REVIEW — Electric Scooter Guide (EN)
+    { id: '-M6czG8cXzI', type: 'youtube' },       // BEST Electric Scooter: NAMI Burn-e 2 Review (EN)
+  ],
+  'blast': [
+    { id: 'VBjoGNJlGrg', type: 'youtube' },      // Nami Blast Full Review — RIDE & GLIDE (EN)
+    { id: 'JmuFAkJGJGo', type: 'youtube' },      // Nami Blast Review — WYRD RYDS (EN)
+  ],
+  'blast-max': [
+    { id: 'bf4BmcJx5B8', type: 'youtube' },      // Nami Blast Max Review — Scoota Gang (EN)
+    { id: 'gBJ3LdkxwMw', type: 'youtube' },      // Nami Blast Max Test Ride — Epic Cycles (EN)
+  ],
+  'klima': [
+    { id: 'zO-xCCpHLrc', type: 'youtube' },      // Complete Nami Scooter Comparison Guide — RIDE & GLIDE (EN)
+  ],
+  'klima-max': [
+    { id: 'zO-xCCpHLrc', type: 'youtube' },      // Complete Nami Scooter Comparison Guide — RIDE & GLIDE (EN)
+  ],
+  'klima-one': [
+    { id: 'zO-xCCpHLrc', type: 'youtube' },      // Complete Nami Scooter Comparison Guide — RIDE & GLIDE (EN)
+  ],
+  'stellar': [],
+  'super-stellar': [],
 };

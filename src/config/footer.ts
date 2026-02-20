@@ -12,6 +12,9 @@ export const footerNavigation: FooterNavColumn[] = [
     items: [
       { label: 'Всі моделі', href: '/' },
       { label: 'Burn-E серія', href: '/#burn-e' },
+      { label: 'Blast серія', href: '/#blast' },
+      { label: 'Klima серія', href: '/#klima' },
+      { label: 'Stellar серія', href: '/#stellar' },
     ],
   },
   {
@@ -38,7 +41,7 @@ export const footerFeatures: FooterFeature[] = [
   { icon: 'truck',       title: 'Доставка по Україні',    description: 'Новою Поштою по всій країні' },
   { icon: 'shieldCheck', title: 'Гарантія 6 місяців',     description: 'На всі електросамокати' },
   { icon: 'phone',       title: 'Консультація',           description: 'Допоможемо обрати модель' },
-  { icon: 'lightning',   title: 'Преміум якість',          description: 'Гідравліка, великий дисплей' },
+  { icon: 'lightning',   title: 'Преміум якість',          description: '9 моделей, NFC, IPX5, гідравліка' },
 ];
 
 export const legalLinks: FooterLegalLink[] = [
