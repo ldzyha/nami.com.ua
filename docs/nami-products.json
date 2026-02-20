@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": "nami-burn-e3-max",
+      "sku": "NM-BE3M-001",
+      "slug": "burn-e3-max",
+      "name": "Nami Burn-E 3 Max",
+      "brand": "Nami",
+      "model": "Burn-E 3 Max",
+      "series": "burn-e",
+      "categoryId": "nami",
+      "shortDescription": "Комфортний потужний самокат з великим дисплеєм та гідравлічною підвіскою",
+      "description": "Nami Burn-E 3 Max — ідеальний баланс потужності та комфорту. Великий дисплей для зручного управління, гідравлічна підвіска для м'якої їзди навіть на поганому покритті. Два мотори по 4200W (8400W сумарно), батарея 72V 40Ah, запас ходу до 120 км. Преміальна якість збирання та матеріалів.",
+      "priceUsdCents": 399900,
+      "inStock": true,
+      "shippingDays": 14,
+      "preorder": true,
+      "images": [
+        { "url": "/products/nami/burn-e3-max.webp", "alt": "Nami Burn-E 3 Max", "isMain": true }
+      ],
+      "specs": {
+        "performance": { "maxSpeed": 100, "range": 120 },
+        "motor": { "powerPerMotor": 4200, "count": 2, "type": "hub" },
+        "battery": { "voltage": 72, "capacity": 40 },
+        "safety": { "suspensionFront": "hydraulic", "suspensionRear": "hydraulic" },
+        "features": { "display": true }
+      },
+      "warranty": { "months": 6 },
+      "rating": { "average": 4.6, "count": 20 }
+    }
+  ]
+}
