@@ -7,6 +7,8 @@ import { metallic, type MetallicVariant } from '@/lib/metallic';
 import { getAllProductSlugsAsync, getProductBySlugAsync, getSimilarProducts, productToTileData } from '@/lib/products';
 import { generateProductSchema } from '@/lib/jsonld';
 import { productVideos } from '@/types/product';
+import { initExchangeRate } from '@/lib/currency';
+import { usdToUah } from '@scootify/shared/lib/currency';
 import styles from './page.module.css';
 import type { CSSProperties } from 'react';
 
@@ -89,6 +91,7 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
 }
 
 export default async function ProductPage({ params }: ProductPageProps) {
+  await initExchangeRate();
   const { slug } = await params;
   const product = await getProductBySlugAsync(slug);
 
@@ -167,7 +170,16 @@ export default async function ProductPage({ params }: ProductPageProps) {
               <p className={styles.shortDesc}>{product.shortDescription}</p>
             )}
 
-            <Price usdCents={product.priceUsdCents} size="lg" />
+            <Price 
+              primaryCents={usdToUah(product.priceUsdCents)} 
+              secondaryCents={product.priceUsdCents}
+              originalPrimaryCents={product.originalPriceUsdCents ? usdToUah(product.originalPriceUsdCents) : undefined}
+              originalSecondaryCents={product.originalPriceUsdCents}
+              size="lg" 
+            />
+            <span style={{ fontSize: '12px', color: 'var(--foreground-muted)', marginTop: '2px' }}>
+              Орієнтовна ціна. Кінцеву вартість уточнюйте.
+            </span>
 
             {/* Key Specs */}
             <div className={styles.keySpecs}>
@@ -216,7 +228,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
             <div className={styles.cta}>
               <CTALink href="https://t.me/scootify_eco" variant="brandText" size="lg" external>
                 <Icon name="telegram" size="sm" />
-                Замовити в Telegram
+                Консультація в Telegram
               </CTALink>
               <CTALink href="tel:+380772770006" variant="blue" size="lg">
                 <Icon name="phone" size="sm" />

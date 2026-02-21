@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import { MetallicText, ProductTile, Icon } from '@/components/ui';
 import { getAllProductsAsync, productToTileData, getProductsBySeries, getSeriesInOrder } from '@/lib/products';
+import { initExchangeRate } from '@/lib/currency';
 import {
   generateWebPageSchema,
   generateItemListSchema,
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
 };
 
 export default async function HomePage() {
+  await initExchangeRate();
   const allProducts = await getAllProductsAsync();
   const productsBySeries = getProductsBySeries();
   const seriesInOrder = getSeriesInOrder();
@@ -50,7 +52,7 @@ export default async function HomePage() {
         {/* Hero */}
         <section className={styles.hero}>
           <div className={styles.heroContent}>
-            <div className={styles.heroBadge}>NAMI ELECTRIC SCOOTERS 2025</div>
+            <div className={styles.heroBadge}>NAMI ELECTRIC SCOOTERS 2026</div>
             <h1 className={styles.heroTitle}>
               <MetallicText variant="silver" as="span">КОМФОРТ.</MetallicText>
               <br />
@@ -61,6 +63,7 @@ export default async function HomePage() {
             <p className={styles.heroSubtitle}>
               Повна лінійка Nami Electric — від компактного Stellar до флагманського Burn-E MAX.
               Гідравлічна підвіска, NFC, IPX5 захист, до 8400W потужності. 9 моделей на будь-який стиль їзди.
+              Орієнтовні ціни в USD.
             </p>
 
             {heroProduct && heroImage && (
@@ -116,11 +119,10 @@ export default async function HomePage() {
                   <p className={styles.seriesDescription}>{series.description}</p>
                 </div>
                 <div className={styles.productGrid}>
-                  {seriesProducts.map((product, i) => (
+                  {seriesProducts.map((product) => (
                     <ProductTile
                       key={product.id}
                       product={productToTileData(product)}
-                      priority={i === 0}
                     />
                   ))}
                 </div>
@@ -128,6 +130,9 @@ export default async function HomePage() {
             );
           })}
 
+          <p style={{ textAlign: 'center', color: 'var(--foreground-muted)', fontSize: '13px', marginTop: '2rem' }}>
+            Ціни орієнтовні. Остаточна вартість визначається після консультації з дистриб&apos;ютором.
+          </p>
 
         </section>
       </div>
