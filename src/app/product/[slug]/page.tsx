@@ -23,6 +23,7 @@ import { generateProductSchema } from '@/lib/jsonld';
 import { productVideos } from '@/types/product';
 import { initExchangeRate, usdToUah } from '@scootify/shared/lib/currency';
 import { siteConfig } from '@/config/site';
+import styles from './page.module.css';
 
 interface ProductPageProps {
   params: Promise<{ slug: string }>;

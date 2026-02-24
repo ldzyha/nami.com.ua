@@ -132,6 +132,15 @@
   color: var(--foreground);
 }
 
+.heroSecondary:active {
+  transform: scale(0.97);
+}
+
+.heroSecondary:focus-visible {
+  outline: 2px solid var(--primary-light);
+  outline-offset: 2px;
+}
+
 /* Catalog */
 .catalog {
   padding: 0 16px 80px;
@@ -188,6 +197,13 @@
   background: var(--surface);
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.disclaimer {
+  text-align: center;
+  color: var(--foreground-muted);
+  font-size: var(--font-size-sm, 0.875rem);
+  margin-top: 2rem;
 }
 
 .comingSoonText {

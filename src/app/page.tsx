@@ -131,7 +131,7 @@ export default async function HomePage() {
             );
           })}
 
-          <p style={{ textAlign: 'center', color: 'var(--foreground-muted)', fontSize: '13px', marginTop: '2rem' }}>
+          <p className={styles.disclaimer}>
             Ціни орієнтовні. Остаточна вартість визначається після консультації з дистриб&apos;ютором.
           </p>
 

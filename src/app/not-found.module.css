@@ -1,0 +1,114 @@
+/* 404 Not Found page */
+
+.page {
+  min-height: 60vh;
+  padding: 60px 16px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.content {
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+/* 404 number */
+.code {
+  margin-bottom: 16px;
+}
+
+.codeText {
+  font-size: 120px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+/* Heading */
+.title {
+  font-size: var(--font-size-3xl, 1.875rem);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* Description */
+.description {
+  color: var(--foreground-muted);
+  font-size: var(--font-size-base, 1rem);
+  line-height: 1.6;
+  margin: 0 0 28px;
+}
+
+/* Help card */
+.helpCard {
+  margin-top: 40px;
+  padding: 24px;
+  background: var(--surface);
+  border-radius: var(--radius-xl, 16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.helpInner {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.helpText {
+  text-align: left;
+}
+
+.helpTitle {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.helpLinks {
+  font-size: var(--font-size-sm, 0.875rem);
+  color: var(--foreground-muted);
+}
+
+.helpLink {
+  color: var(--primary-light);
+  text-decoration: none;
+}
+
+.helpLink:hover {
+  text-decoration: underline;
+}
+
+.helpLink:focus-visible {
+  outline: 2px solid var(--primary-light);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .page {
+    padding: 40px 16px;
+  }
+
+  .codeText {
+    font-size: 80px;
+  }
+
+  .title {
+    font-size: var(--font-size-2xl, 1.5rem);
+  }
+
+  .helpCard {
+    padding: 16px;
+  }
+
+  .helpInner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .helpText {
+    text-align: center;
+  }
+}

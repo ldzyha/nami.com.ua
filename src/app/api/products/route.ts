@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { getAllProductsAsync } from '@/lib/products';
+import type { Product } from '@/types/product';
 
 export const dynamic = 'force-static';
 export const revalidate = 3600;
@@ -8,8 +9,8 @@ export async function GET() {
     const allProducts = await getAllProductsAsync();
 
     // Return simplified data for Telegram bot
-    const simplified = allProducts.map((p: any) => {
-        const mainImage = p.images?.find((img: { isMain?: boolean }) => img.isMain) || p.images?.[0];
+    const simplified = allProducts.map((p: Product) => {
+        const mainImage = p.images?.find((img) => img.isMain) || p.images?.[0];
         const imageUrl = mainImage?.url || `/products/nami/${p.slug}-main.webp`;
 
         return {

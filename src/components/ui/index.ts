@@ -10,6 +10,8 @@ export {
   type MetallicButtonProps,
   MetallicCard,
   type MetallicCardProps,
+  MetallicLink,
+  type MetallicLinkProps,
   Price,
   type PriceProps,
   ProductTile,
