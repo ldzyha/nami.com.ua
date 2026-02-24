@@ -1,31 +1,31 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
-import { Geist } from "next/font/google";
+import { Inter } from "next/font/google";
 import { PageWrapper } from "@/components/layout/PageWrapper";
+import { Providers } from "@/components/layout/Providers";
 import {
   generateOrganizationSchema,
   generateWebSiteSchema,
   generateLocalBusinessSchema,
   combineSchemas,
 } from "@/lib/jsonld";
+import "@scootify/shared/styles";
+import "@scootify/shared/styles/themes/nami";
 import "./globals.css";
 
-const FloatingContactButton = dynamic(
-  () => import("@/components/ui").then((mod) => ({ default: mod.FloatingContactButton }))
-);
 const CookieBanner = dynamic(
   () => import("@/components/ui").then((mod) => ({ default: mod.CookieBanner }))
 );
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin", "latin-ext"],
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin", "cyrillic"],
   display: "swap",
 });
 
 export const metadata: Metadata = {
   title: {
-    default: "NAMI | Електросамокати преміум класу в Україні",
+    default: "NAMI | Електросамокати преміум класу — купити в Україні",
     template: "%s | NAMI",
   },
   description:
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     locale: "uk_UA",
     url: "https://nami.com.ua",
     siteName: "NAMI",
-    title: "NAMI | Електросамокати преміум класу в Україні",
+    title: "NAMI | Електросамокати преміум класу — купити в Україні",
     description:
       "Nami електросамокати — преміум клас. Потужність до 8400W, гідравлічна підвіска.",
     images: [
@@ -101,13 +101,14 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(globalJsonLd) }}
         />
       </head>
-      <body className={`${geistSans.variable} antialiased`}>
+      <body className={`${inter.variable} antialiased`}>
         <a href="#main-content" className="skip-to-content">
           Перейти до основного вмісту
         </a>
-        <PageWrapper>{children}</PageWrapper>
-        <FloatingContactButton />
-        <CookieBanner />
+        <Providers>
+          <PageWrapper>{children}</PageWrapper>
+          <CookieBanner />
+        </Providers>
       </body>
     </html>
   );

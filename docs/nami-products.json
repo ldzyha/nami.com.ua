@@ -16,6 +16,7 @@
         "use-case-performance"
       ],
       "priceUsdCents": 377900,
+      "priceUSD": 3779,
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
@@ -37,7 +38,32 @@
           "isMain": false
         }
       ],
-      "variants": [],
+      "imagesDetailed": [
+        {
+          "url": "/products/nami/burn-e-main.webp",
+          "alt": "Nami Burn-E - зображення 1",
+          "isMain": true
+        },
+        {
+          "url": "/products/nami/burn-e-side.webp",
+          "alt": "Nami Burn-E - зображення 2",
+          "isMain": false
+        }
+      ],
+      "colors": [],
+      "colorHexMap": {},
+      "variants": [
+        {
+          "id": "nami-burn-e",
+          "name": "Default",
+          "sku": "NM-BE-001",
+          "price": 377900,
+          "priceUsdCents": 377900,
+          "priceUSD": 3779,
+          "inStock": false,
+          "attributes": {}
+        }
+      ],
       "specs": {
         "performance": {
           "maxSpeed": 85,
@@ -113,6 +139,7 @@
         "use-case-performance"
       ],
       "priceUsdCents": 485900,
+      "priceUSD": 4859,
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
@@ -129,7 +156,27 @@
           "isMain": true
         }
       ],
-      "variants": [],
+      "imagesDetailed": [
+        {
+          "url": "/products/nami/burn-e-max-main.webp",
+          "alt": "Nami Burn-E MAX - зображення 1",
+          "isMain": true
+        }
+      ],
+      "colors": [],
+      "colorHexMap": {},
+      "variants": [
+        {
+          "id": "nami-burn-e-max",
+          "name": "Default",
+          "sku": "NM-BEM-001",
+          "price": 485900,
+          "priceUsdCents": 485900,
+          "priceUSD": 4859,
+          "inStock": false,
+          "attributes": {}
+        }
+      ],
       "specs": {
         "performance": {
           "maxSpeed": 95,
@@ -205,6 +252,7 @@
         "use-case-performance"
       ],
       "priceUsdCents": 323900,
+      "priceUSD": 3239,
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
@@ -226,7 +274,32 @@
           "isMain": false
         }
       ],
-      "variants": [],
+      "imagesDetailed": [
+        {
+          "url": "/products/nami/blast-main.webp",
+          "alt": "Nami Blast - зображення 1",
+          "isMain": true
+        },
+        {
+          "url": "/products/nami/blast-side.webp",
+          "alt": "Nami Blast - зображення 2",
+          "isMain": false
+        }
+      ],
+      "colors": [],
+      "colorHexMap": {},
+      "variants": [
+        {
+          "id": "nami-blast",
+          "name": "Default",
+          "sku": "NM-BL-001",
+          "price": 323900,
+          "priceUsdCents": 323900,
+          "priceUSD": 3239,
+          "inStock": false,
+          "attributes": {}
+        }
+      ],
       "specs": {
         "performance": {
           "maxSpeed": 75,
@@ -302,6 +375,7 @@
         "use-case-performance"
       ],
       "priceUsdCents": 367100,
+      "priceUSD": 3671,
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
@@ -318,7 +392,27 @@
           "isMain": true
         }
       ],
-      "variants": [],
+      "imagesDetailed": [
+        {
+          "url": "/products/nami/blast-max-main.webp",
+          "alt": "Nami Blast MAX - зображення 1",
+          "isMain": true
+        }
+      ],
+      "colors": [],
+      "colorHexMap": {},
+      "variants": [
+        {
+          "id": "nami-blast-max",
+          "name": "Default",
+          "sku": "NM-BLM-001",
+          "price": 367100,
+          "priceUsdCents": 367100,
+          "priceUSD": 3671,
+          "inStock": false,
+          "attributes": {}
+        }
+      ],
       "specs": {
         "performance": {
           "maxSpeed": 85,
@@ -395,6 +489,8 @@
       ],
       "priceUsdCents": 215900,
       "originalPriceUsdCents": 248300,
+      "priceUSD": 2159,
+      "compareAtPriceUSD": 2483,
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
@@ -416,7 +512,35 @@
           "isMain": false
         }
       ],
-      "variants": [],
+      "imagesDetailed": [
+        {
+          "url": "/products/nami/klima-main.webp",
+          "alt": "Nami Klima - зображення 1",
+          "isMain": true
+        },
+        {
+          "url": "/products/nami/klima-side.webp",
+          "alt": "Nami Klima - зображення 2",
+          "isMain": false
+        }
+      ],
+      "colors": [],
+      "colorHexMap": {},
+      "variants": [
+        {
+          "id": "nami-klima",
+          "name": "Default",
+          "sku": "NM-KL-001",
+          "price": 215900,
+          "originalPrice": 248300,
+          "priceUsdCents": 215900,
+          "originalPriceUsdCents": 248300,
+          "priceUSD": 2159,
+          "compareAtPriceUSD": 2483,
+          "inStock": false,
+          "attributes": {}
+        }
+      ],
       "specs": {
         "performance": {
           "maxSpeed": 65,
@@ -493,6 +617,8 @@
       ],
       "priceUsdCents": 259100,
       "originalPriceUsdCents": 323900,
+      "priceUSD": 2591,
+      "compareAtPriceUSD": 3239,
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
@@ -509,7 +635,30 @@
           "isMain": true
         }
       ],
-      "variants": [],
+      "imagesDetailed": [
+        {
+          "url": "/products/nami/klima-max-main.webp",
+          "alt": "Nami Klima MAX - зображення 1",
+          "isMain": true
+        }
+      ],
+      "colors": [],
+      "colorHexMap": {},
+      "variants": [
+        {
+          "id": "nami-klima-max",
+          "name": "Default",
+          "sku": "NM-KLM-001",
+          "price": 259100,
+          "originalPrice": 323900,
+          "priceUsdCents": 259100,
+          "originalPriceUsdCents": 323900,
+          "priceUSD": 2591,
+          "compareAtPriceUSD": 3239,
+          "inStock": false,
+          "attributes": {}
+        }
+      ],
       "specs": {
         "performance": {
           "maxSpeed": 70,
@@ -519,7 +668,7 @@
         "motor": {
           "count": 2,
           "powerPerMotor": 1000,
-          "totalPower": 5375,
+          "totalPower": 5376,
           "type": "hub"
         },
         "battery": {
@@ -586,6 +735,8 @@
       ],
       "priceUsdCents": 183500,
       "originalPriceUsdCents": 205100,
+      "priceUSD": 1835,
+      "compareAtPriceUSD": 2051,
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
@@ -607,7 +758,35 @@
           "isMain": false
         }
       ],
-      "variants": [],
+      "imagesDetailed": [
+        {
+          "url": "/products/nami/klima-one-main.webp",
+          "alt": "Nami Klima ONE - зображення 1",
+          "isMain": true
+        },
+        {
+          "url": "/products/nami/klima-one-side.webp",
+          "alt": "Nami Klima ONE - зображення 2",
+          "isMain": false
+        }
+      ],
+      "colors": [],
+      "colorHexMap": {},
+      "variants": [
+        {
+          "id": "nami-klima-one",
+          "name": "Default",
+          "sku": "NM-KLO-001",
+          "price": 183500,
+          "originalPrice": 205100,
+          "priceUsdCents": 183500,
+          "originalPriceUsdCents": 205100,
+          "priceUSD": 1835,
+          "compareAtPriceUSD": 2051,
+          "inStock": false,
+          "attributes": {}
+        }
+      ],
       "specs": {
         "performance": {
           "maxSpeed": 50,
@@ -683,6 +862,8 @@
       ],
       "priceUsdCents": 107900,
       "originalPriceUsdCents": 129500,
+      "priceUSD": 1079,
+      "compareAtPriceUSD": 1295,
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
@@ -704,7 +885,35 @@
           "isMain": false
         }
       ],
-      "variants": [],
+      "imagesDetailed": [
+        {
+          "url": "/products/nami/stellar-main.webp",
+          "alt": "Nami Stellar - зображення 1",
+          "isMain": true
+        },
+        {
+          "url": "/products/nami/stellar-side.webp",
+          "alt": "Nami Stellar - зображення 2",
+          "isMain": false
+        }
+      ],
+      "colors": [],
+      "colorHexMap": {},
+      "variants": [
+        {
+          "id": "nami-stellar",
+          "name": "Default",
+          "sku": "NM-ST-001",
+          "price": 107900,
+          "originalPrice": 129500,
+          "priceUsdCents": 107900,
+          "originalPriceUsdCents": 129500,
+          "priceUSD": 1079,
+          "compareAtPriceUSD": 1295,
+          "inStock": false,
+          "attributes": {}
+        }
+      ],
       "specs": {
         "performance": {
           "maxSpeed": 45,
@@ -779,6 +988,8 @@
       ],
       "priceUsdCents": 161900,
       "originalPriceUsdCents": 194300,
+      "priceUSD": 1619,
+      "compareAtPriceUSD": 1943,
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
@@ -800,7 +1011,35 @@
           "isMain": false
         }
       ],
-      "variants": [],
+      "imagesDetailed": [
+        {
+          "url": "/products/nami/super-stellar-main.webp",
+          "alt": "Nami Super Stellar - зображення 1",
+          "isMain": true
+        },
+        {
+          "url": "/products/nami/super-stellar-side.webp",
+          "alt": "Nami Super Stellar - зображення 2",
+          "isMain": false
+        }
+      ],
+      "colors": [],
+      "colorHexMap": {},
+      "variants": [
+        {
+          "id": "nami-super-stellar",
+          "name": "Default",
+          "sku": "NM-SST-001",
+          "price": 161900,
+          "originalPrice": 194300,
+          "priceUsdCents": 161900,
+          "originalPriceUsdCents": 194300,
+          "priceUSD": 1619,
+          "compareAtPriceUSD": 1943,
+          "inStock": false,
+          "attributes": {}
+        }
+      ],
       "specs": {
         "performance": {
           "maxSpeed": 55,
@@ -861,7 +1100,7 @@
     }
   ],
   "metadata": {
-    "syncedAt": "2026-02-21T12:12:28.700Z",
+    "syncedAt": "2026-02-22T18:42:28.312Z",
     "source": "@scootify/shared/db",
     "domain": "nami.com.ua"
   }

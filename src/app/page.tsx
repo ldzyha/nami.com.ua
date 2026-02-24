@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import { MetallicText, ProductTile, Icon } from '@/components/ui';
 import { getAllProductsAsync, productToTileData, getProductsBySeries, getSeriesInOrder } from '@/lib/products';
-import { initExchangeRate } from '@/lib/currency';
+import { initExchangeRate } from '@scootify/shared/lib/currency';
 import {
   generateWebPageSchema,
   generateItemListSchema,
@@ -11,8 +11,8 @@ import {
 import styles from './page.module.css';
 
 export const metadata: Metadata = {
-  title: 'NAMI | Електросамокати преміум класу в Україні',
-  description: 'Nami електросамокати — повна лінійка від Stellar до Burn-E MAX. Потужність до 8400W, гідравлічна підвіска, NFC, IPX5. Запас ходу до 150 км. 9 моделей. Доставка по Україні.',
+  title: 'NAMI | Електросамокати преміум класу — купити в Україні',
+  description: 'Nami електросамокати — повна лінійка від Stellar до Burn-E MAX. Потужність до 8400W, гідравлічна підвіска, IPX5. Запас ходу до 150 км. Доставка по Україні.',
   alternates: { canonical: '/' },
 };
 
@@ -123,6 +123,7 @@ export default async function HomePage() {
                     <ProductTile
                       key={product.id}
                       product={productToTileData(product)}
+                      purchaseModel="consultation"
                     />
                   ))}
                 </div>
