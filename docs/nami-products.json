@@ -20,6 +20,8 @@
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
+      "discontinued": false,
+      "hidden": false,
       "purchaseModel": "consultation",
       "prepaymentTerms": {
         "type": "fixed",
@@ -143,6 +145,8 @@
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
+      "discontinued": false,
+      "hidden": false,
       "purchaseModel": "consultation",
       "prepaymentTerms": {
         "type": "fixed",
@@ -256,6 +260,8 @@
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
+      "discontinued": false,
+      "hidden": false,
       "purchaseModel": "consultation",
       "prepaymentTerms": {
         "type": "fixed",
@@ -379,6 +385,8 @@
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
+      "discontinued": false,
+      "hidden": false,
       "purchaseModel": "consultation",
       "prepaymentTerms": {
         "type": "fixed",
@@ -494,6 +502,8 @@
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
+      "discontinued": false,
+      "hidden": false,
       "purchaseModel": "consultation",
       "prepaymentTerms": {
         "type": "fixed",
@@ -615,13 +625,15 @@
         "tier-mid",
         "use-case-commute"
       ],
-      "priceUsdCents": 259100,
-      "originalPriceUsdCents": 323900,
-      "priceUSD": 2591,
-      "compareAtPriceUSD": 3239,
+      "priceUsdCents": 230000,
+      "originalPriceUsdCents": 259100,
+      "priceUSD": 2300,
+      "compareAtPriceUSD": 2591,
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
+      "discontinued": false,
+      "hidden": false,
       "purchaseModel": "consultation",
       "prepaymentTerms": {
         "type": "fixed",
@@ -649,12 +661,12 @@
           "id": "nami-klima-max",
           "name": "Default",
           "sku": "NM-KLM-001",
-          "price": 259100,
-          "originalPrice": 323900,
-          "priceUsdCents": 259100,
-          "originalPriceUsdCents": 323900,
-          "priceUSD": 2591,
-          "compareAtPriceUSD": 3239,
+          "price": 230000,
+          "originalPrice": 259100,
+          "priceUsdCents": 230000,
+          "originalPriceUsdCents": 259100,
+          "priceUSD": 2300,
+          "compareAtPriceUSD": 2591,
           "inStock": false,
           "attributes": {}
         }
@@ -740,6 +752,8 @@
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
+      "discontinued": false,
+      "hidden": false,
       "purchaseModel": "consultation",
       "prepaymentTerms": {
         "type": "fixed",
@@ -867,6 +881,8 @@
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
+      "discontinued": false,
+      "hidden": false,
       "purchaseModel": "consultation",
       "prepaymentTerms": {
         "type": "fixed",
@@ -986,13 +1002,15 @@
         "tier-mid",
         "use-case-commute"
       ],
-      "priceUsdCents": 161900,
+      "priceUsdCents": 188000,
       "originalPriceUsdCents": 194300,
-      "priceUSD": 1619,
+      "priceUSD": 1880,
       "compareAtPriceUSD": 1943,
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
+      "discontinued": false,
+      "hidden": false,
       "purchaseModel": "consultation",
       "prepaymentTerms": {
         "type": "fixed",
@@ -1030,11 +1048,11 @@
           "id": "nami-super-stellar",
           "name": "Default",
           "sku": "NM-SST-001",
-          "price": 161900,
+          "price": 188000,
           "originalPrice": 194300,
-          "priceUsdCents": 161900,
+          "priceUsdCents": 188000,
           "originalPriceUsdCents": 194300,
-          "priceUSD": 1619,
+          "priceUSD": 1880,
           "compareAtPriceUSD": 1943,
           "inStock": false,
           "attributes": {}
@@ -1100,7 +1118,7 @@
     }
   ],
   "metadata": {
-    "syncedAt": "2026-02-22T18:42:28.312Z",
+    "syncedAt": "2026-02-24T13:37:56.581Z",
     "source": "@scootify/shared/db",
     "domain": "nami.com.ua"
   }
