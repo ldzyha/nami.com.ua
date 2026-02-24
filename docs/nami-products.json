@@ -68,38 +68,50 @@
       ],
       "specs": {
         "performance": {
-          "maxSpeed": 85,
-          "range": 110,
-          "maxLoad": 120
+          "maxSpeed": 100,
+          "range": 100,
+          "maxLoad": 150
         },
         "motor": {
           "count": 2,
-          "powerPerMotor": 1000,
-          "totalPower": 6720,
+          "powerPerMotor": 3000,
+          "totalPower": 6000,
           "type": "hub"
         },
         "battery": {
           "voltage": 72,
-          "capacity": 30,
-          "wattHours": 2190,
+          "capacity": 32,
+          "wattHours": 2304,
+          "cells": "Samsung 21700",
+          "chargeTime": {
+            "min": 6,
+            "max": 8
+          },
           "chargerSpec": "72V 5A"
         },
         "physical": {
-          "weight": 48.8,
-          "wheelSize": 11,
-          "wheelType": "tubeless",
+          "weight": 41,
+          "wheelSize": 10,
+          "wheelType": "pneumatic",
           "foldable": true
         },
         "safety": {
           "waterRating": "IPX5",
-          "brakeType": "Гідравлічні 160 мм, 2 поршні",
+          "brakeType": "Гідравлічні 160 мм, 4 поршні",
+          "brakePistons": 4,
           "suspensionFront": "hydraulic",
           "suspensionRear": "hydraulic",
           "suspensionAdjustable": true
         },
         "features": {
           "display": true,
+          "cruiseControl": true,
           "nfc": true,
+          "app": true,
+          "rgbLeds": true,
+          "alarm": true,
+          "alarmWithWheelLock": true,
+          "regenerativeBrake": true,
           "turnSignals": true,
           "dualMotorMode": true
         },
@@ -183,13 +195,13 @@
       ],
       "specs": {
         "performance": {
-          "maxSpeed": 95,
+          "maxSpeed": 105,
           "range": 140,
-          "maxLoad": 120
+          "maxLoad": 150
         },
         "motor": {
           "count": 2,
-          "powerPerMotor": 1500,
+          "powerPerMotor": 4200,
           "totalPower": 8400,
           "type": "hub"
         },
@@ -197,24 +209,36 @@
           "voltage": 72,
           "capacity": 40,
           "wattHours": 2880,
+          "cells": "Samsung 50E",
+          "chargeTime": {
+            "min": 8,
+            "max": 12
+          },
           "chargerSpec": "72V 5A"
         },
         "physical": {
-          "weight": 53.1,
-          "wheelSize": 11,
-          "wheelType": "tubeless",
+          "weight": 50,
+          "wheelSize": 10,
+          "wheelType": "pneumatic",
           "foldable": true
         },
         "safety": {
           "waterRating": "IPX5",
           "brakeType": "Гідравлічні 160 мм, 4 поршні",
+          "brakePistons": 4,
           "suspensionFront": "hydraulic",
           "suspensionRear": "hydraulic",
           "suspensionAdjustable": true
         },
         "features": {
           "display": true,
+          "cruiseControl": true,
           "nfc": true,
+          "app": true,
+          "rgbLeds": true,
+          "alarm": true,
+          "alarmWithWheelLock": true,
+          "regenerativeBrake": true,
           "turnSignals": true,
           "dualMotorMode": true
         },
@@ -308,38 +332,50 @@
       ],
       "specs": {
         "performance": {
-          "maxSpeed": 75,
-          "range": 85,
+          "maxSpeed": 70,
+          "range": 80,
           "maxLoad": 120
         },
         "motor": {
           "count": 2,
-          "powerPerMotor": 1000,
-          "totalPower": 5376,
+          "powerPerMotor": 1500,
+          "totalPower": 3000,
           "type": "hub"
         },
         "battery": {
           "voltage": 60,
-          "capacity": 29,
-          "wattHours": 1740,
+          "capacity": 28,
+          "wattHours": 1680,
+          "cells": "Samsung",
+          "chargeTime": {
+            "min": 6,
+            "max": 8
+          },
           "chargerSpec": "60V 5A"
         },
         "physical": {
-          "weight": 45.3,
-          "wheelSize": 11,
-          "wheelType": "tubeless",
+          "weight": 33,
+          "wheelSize": 10,
+          "wheelType": "pneumatic",
           "foldable": true
         },
         "safety": {
           "waterRating": "IPX5",
           "brakeType": "Гідравлічні 140 мм, 2 поршні",
-          "suspensionFront": "hydraulic",
+          "brakePistons": 2,
+          "suspensionFront": "inverted fork",
           "suspensionRear": "hydraulic",
           "suspensionAdjustable": true
         },
         "features": {
           "display": true,
+          "cruiseControl": true,
           "nfc": true,
+          "app": true,
+          "rgbLeds": true,
+          "alarm": true,
+          "alarmWithWheelLock": true,
+          "regenerativeBrake": true,
           "turnSignals": true,
           "dualMotorMode": true
         },
@@ -423,38 +459,50 @@
       ],
       "specs": {
         "performance": {
-          "maxSpeed": 85,
+          "maxSpeed": 70,
           "range": 100,
           "maxLoad": 120
         },
         "motor": {
           "count": 2,
           "powerPerMotor": 1500,
-          "totalPower": 8400,
+          "totalPower": 3000,
           "type": "hub"
         },
         "battery": {
-          "voltage": 72,
-          "capacity": 40,
-          "wattHours": 2880,
-          "chargerSpec": "72V 5A"
+          "voltage": 60,
+          "capacity": 35,
+          "wattHours": 2100,
+          "cells": "Samsung",
+          "chargeTime": {
+            "min": 8,
+            "max": 10
+          },
+          "chargerSpec": "60V 5A"
         },
         "physical": {
-          "weight": 48.2,
-          "wheelSize": 11,
-          "wheelType": "tubeless",
+          "weight": 35,
+          "wheelSize": 10,
+          "wheelType": "pneumatic",
           "foldable": true
         },
         "safety": {
           "waterRating": "IPX5",
           "brakeType": "Гідравлічні 140 мм, 2 поршні",
-          "suspensionFront": "hydraulic",
+          "brakePistons": 2,
+          "suspensionFront": "inverted fork",
           "suspensionRear": "hydraulic",
           "suspensionAdjustable": true
         },
         "features": {
           "display": true,
+          "cruiseControl": true,
           "nfc": true,
+          "app": true,
+          "rgbLeds": true,
+          "alarm": true,
+          "alarmWithWheelLock": true,
+          "regenerativeBrake": true,
           "turnSignals": true,
           "dualMotorMode": true
         },
@@ -553,38 +601,50 @@
       ],
       "specs": {
         "performance": {
-          "maxSpeed": 65,
-          "range": 100,
-          "maxLoad": 110
+          "maxSpeed": 60,
+          "range": 70,
+          "maxLoad": 120
         },
         "motor": {
           "count": 2,
           "powerPerMotor": 1000,
-          "totalPower": 5376,
+          "totalPower": 2000,
           "type": "hub"
         },
         "battery": {
           "voltage": 60,
           "capacity": 25,
           "wattHours": 1500,
+          "cells": "Samsung",
+          "chargeTime": {
+            "min": 6,
+            "max": 8
+          },
           "chargerSpec": "60V 5A"
         },
         "physical": {
           "weight": 37.6,
-          "wheelSize": 11,
-          "wheelType": "tubeless",
+          "wheelSize": 10,
+          "wheelType": "pneumatic",
           "foldable": true
         },
         "safety": {
           "waterRating": "IPX5",
           "brakeType": "Гідравлічні 140 мм, 2 поршні",
+          "brakePistons": 2,
           "suspensionFront": "hydraulic",
           "suspensionRear": "hydraulic",
           "suspensionAdjustable": true
         },
         "features": {
           "display": true,
+          "cruiseControl": true,
           "nfc": true,
+          "app": true,
+          "rgbLeds": true,
+          "alarm": true,
+          "alarmWithWheelLock": true,
+          "regenerativeBrake": true,
           "turnSignals": true,
           "dualMotorMode": true
         },
@@ -673,38 +733,50 @@
       ],
       "specs": {
         "performance": {
-          "maxSpeed": 70,
-          "range": 120,
-          "maxLoad": 110
+          "maxSpeed": 60,
+          "range": 80,
+          "maxLoad": 120
         },
         "motor": {
           "count": 2,
           "powerPerMotor": 1000,
-          "totalPower": 5376,
+          "totalPower": 2000,
           "type": "hub"
         },
         "battery": {
           "voltage": 60,
-          "capacity": 30,
-          "wattHours": 1800,
+          "capacity": 28,
+          "wattHours": 1680,
+          "cells": "Samsung",
+          "chargeTime": {
+            "min": 7,
+            "max": 9
+          },
           "chargerSpec": "60V 5A"
         },
         "physical": {
           "weight": 38.3,
-          "wheelSize": 11,
-          "wheelType": "tubeless",
+          "wheelSize": 10,
+          "wheelType": "pneumatic",
           "foldable": true
         },
         "safety": {
           "waterRating": "IPX5",
           "brakeType": "Гідравлічні 140 мм, 2 поршні",
+          "brakePistons": 2,
           "suspensionFront": "hydraulic",
           "suspensionRear": "hydraulic",
           "suspensionAdjustable": true
         },
         "features": {
           "display": true,
+          "cruiseControl": true,
           "nfc": true,
+          "app": true,
+          "rgbLeds": true,
+          "alarm": true,
+          "alarmWithWheelLock": true,
+          "regenerativeBrake": true,
           "turnSignals": true,
           "dualMotorMode": true
         },
@@ -804,37 +876,49 @@
       "specs": {
         "performance": {
           "maxSpeed": 50,
-          "range": 150,
-          "maxLoad": 110
+          "range": 60,
+          "maxLoad": 100
         },
         "motor": {
-          "count": 2,
+          "count": 1,
           "powerPerMotor": 1000,
-          "totalPower": 2688,
+          "totalPower": 1000,
           "type": "hub"
         },
         "battery": {
           "voltage": 60,
-          "capacity": 25,
-          "wattHours": 1500,
+          "capacity": 21,
+          "wattHours": 1260,
+          "cells": "Samsung",
+          "chargeTime": {
+            "min": 5,
+            "max": 7
+          },
           "chargerSpec": "60V 5A"
         },
         "physical": {
-          "weight": 33.8,
-          "wheelSize": 11,
-          "wheelType": "tubeless",
+          "weight": 28,
+          "wheelSize": 10,
+          "wheelType": "pneumatic",
           "foldable": true
         },
         "safety": {
           "waterRating": "IPX5",
           "brakeType": "Гідравлічні 140 мм, 2 поршні",
+          "brakePistons": 2,
           "suspensionFront": "hydraulic",
           "suspensionRear": "hydraulic",
           "suspensionAdjustable": true
         },
         "features": {
           "display": true,
+          "cruiseControl": true,
           "nfc": true,
+          "app": true,
+          "rgbLeds": true,
+          "alarm": true,
+          "alarmWithWheelLock": true,
+          "regenerativeBrake": true,
           "turnSignals": true
         },
         "shipping": {
@@ -932,38 +1016,44 @@
       ],
       "specs": {
         "performance": {
-          "maxSpeed": 45,
-          "range": 50,
-          "maxLoad": 110
+          "maxSpeed": 40,
+          "range": 45,
+          "maxLoad": 100
         },
         "motor": {
           "count": 1,
-          "powerPerMotor": 1000,
-          "totalPower": 1470,
+          "powerPerMotor": 750,
+          "totalPower": 750,
           "type": "hub"
         },
         "battery": {
-          "voltage": 52,
-          "capacity": 15.6,
-          "wattHours": 786,
-          "chargerSpec": "52V 2A"
+          "voltage": 48,
+          "capacity": 15,
+          "wattHours": 720,
+          "cells": "Samsung",
+          "chargeTime": {
+            "min": 4,
+            "max": 6
+          },
+          "chargerSpec": "48V 2A"
         },
         "physical": {
-          "weight": 26.5,
+          "weight": 22,
           "wheelSize": 9,
-          "wheelType": "tubeless",
+          "wheelType": "pneumatic",
           "foldable": true
         },
         "safety": {
-          "waterRating": "IPX5",
-          "brakeType": "Тросові 140 мм, 2 поршні",
+          "waterRating": "IPX4",
+          "brakeType": "Механічні дискові",
           "suspensionFront": "spring",
           "suspensionRear": "spring"
         },
         "features": {
           "display": true,
-          "nfc": true,
-          "turnSignals": true
+          "cruiseControl": true,
+          "app": true,
+          "regenerativeBrake": true
         },
         "shipping": {
           "weightKg": 31.5,
@@ -1061,37 +1151,44 @@
       "specs": {
         "performance": {
           "maxSpeed": 55,
-          "range": 75,
-          "maxLoad": 110
+          "range": 65,
+          "maxLoad": 120
         },
         "motor": {
           "count": 2,
-          "powerPerMotor": 1000,
-          "totalPower": 2940,
+          "powerPerMotor": 750,
+          "totalPower": 1500,
           "type": "hub"
         },
         "battery": {
-          "voltage": 52,
-          "capacity": 25,
-          "wattHours": 1277,
-          "chargerSpec": "52V 2A"
+          "voltage": 48,
+          "capacity": 21,
+          "wattHours": 1008,
+          "cells": "Samsung",
+          "chargeTime": {
+            "min": 5,
+            "max": 7
+          },
+          "chargerSpec": "48V 2A"
         },
         "physical": {
-          "weight": 30,
+          "weight": 26,
           "wheelSize": 9,
-          "wheelType": "tubeless",
+          "wheelType": "pneumatic",
           "foldable": true
         },
         "safety": {
-          "waterRating": "IPX5",
+          "waterRating": "IPX4",
           "brakeType": "Гідравлічні 140 мм, 2 поршні",
+          "brakePistons": 2,
           "suspensionFront": "spring",
           "suspensionRear": "spring"
         },
         "features": {
           "display": true,
-          "nfc": true,
-          "turnSignals": true,
+          "cruiseControl": true,
+          "app": true,
+          "regenerativeBrake": true,
           "dualMotorMode": true
         },
         "shipping": {
@@ -1118,7 +1215,7 @@
     }
   ],
   "metadata": {
-    "syncedAt": "2026-02-24T13:37:56.581Z",
+    "syncedAt": "2026-02-24T20:31:35.250Z",
     "source": "@scootify/shared/db",
     "domain": "nami.com.ua"
   }
