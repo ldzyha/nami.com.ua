@@ -164,6 +164,11 @@ export const productVideos: Record<string, ProductVideo[]> = {
   'klima-one': [
     { id: 'zO-xCCpHLrc', type: 'youtube' },      // Complete Nami Scooter Comparison Guide — RIDE & GLIDE (EN)
   ],
-  'stellar': [],
-  'super-stellar': [],
+  'stellar': [
+    { id: 'QRubJLoqSQA', type: 'youtube' },       // Nami Stellar Review — Electric Scooter Guide (EN)
+  ],
+  'super-stellar': [
+    { id: '5dW1DSRWy-Q', type: 'youtube' },       // Nami Super Stellar Review — voromotors (EN)
+    { id: 'IJws-GVNZb0', type: 'youtube' },       // Nami Super Stellar Review — ESG (EN)
+  ],
 };

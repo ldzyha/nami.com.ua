@@ -4,6 +4,7 @@
     "public": "out",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [
+      { "source": "/api/products", "destination": "/api/products.json" },
       { "source": "/api/callback", "function": "callback" },
       { "source": "/api/orders", "function": "orders" },
       { "source": "/api/exchange-rate", "function": "getExchangeRate" }
