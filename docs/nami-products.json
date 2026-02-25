@@ -8,8 +8,8 @@
       "brand": "nami",
       "series": "burn-e",
       "model": "Burn-E",
-      "shortDescription": "Спортивний самокат з карбоновою колонкою керма та гідравлічною підвіскою KKE 165 мм",
-      "description": "Nami Burn-E — це втілення стилю та продуктивності. Сучасний дизайн, плавне керування та неперевершений комфорт перетворюють кожну поїздку на враження. Потужна, елегантна та безпечна — Burn-E пропонує новий спосіб пересування. Трубчаста рама з алюмінію, колонка керма з карбону, регульована гідравлічна підвіска KKE та амортизатор керма забезпечують оптимальний контроль навіть на високій швидкості.",
+      "shortDescription": "Спортивний двомоторний | Карбонова колонка керма, 72V, 110 км ходу, гідропідвіска KKE 165 мм",
+      "description": "Nami Burn-E — втілення стилю та продуктивності. Трубчаста рама з алюмінію (гарантія 5 років), колонка керма з карбону, регульована гідравлічна підвіска KKE 165 мм та амортизатор керма. Подвійний мотор 2×1000W з піковою потужністю 6720W та контролером 40A x2. Батарея 72V 30Ah (2190 Wh) забезпечує до 110 км реального ходу. Гідравлічні дискові гальма 160 мм (2 поршні), безкамерні шини CST 11\", NFC, повний LED з поворотниками та захист IPX5. Сучасний дисплей з IP65 захистом.",
       "categoryId": "tier-premium",
       "categoryIds": [
         "tier-premium",
@@ -69,19 +69,21 @@
       "specs": {
         "performance": {
           "maxSpeed": 100,
-          "range": 100,
-          "maxLoad": 150
+          "range": 110,
+          "maxLoad": 120
         },
         "motor": {
           "count": 2,
-          "powerPerMotor": 3000,
-          "totalPower": 6000,
+          "powerPerMotor": 1000,
+          "peakPower": 6720,
+          "totalPower": 2000,
+          "controller": "40A x 2",
           "type": "hub"
         },
         "battery": {
           "voltage": 72,
-          "capacity": 32,
-          "wattHours": 2304,
+          "capacity": 30,
+          "wattHours": 2190,
           "cells": "Samsung 21700",
           "chargeTime": {
             "min": 6,
@@ -90,18 +92,24 @@
           "chargerSpec": "72V 5A"
         },
         "physical": {
-          "weight": 41,
-          "wheelSize": 10,
+          "weight": 48.8,
+          "wheelSize": 11,
           "wheelType": "pneumatic",
-          "foldable": true
+          "tireSpec": "CST 11\" Tubeless road",
+          "foldable": true,
+          "dimensions": { "length": 132, "width": 69, "height": 133 },
+          "foldedDimensions": { "length": 132, "width": 69, "height": 63 }
         },
         "safety": {
           "waterRating": "IPX5",
-          "brakeType": "Гідравлічні 160 мм, 4 поршні",
-          "brakePistons": 4,
+          "brakeType": "Гідравлічні 160 мм, 2 поршні",
+          "brakePistons": 2,
           "suspensionFront": "hydraulic",
           "suspensionRear": "hydraulic",
-          "suspensionAdjustable": true
+          "suspensionAdjustable": true,
+          "frameType": "Трубчастий алюмінієвий, гарантія 5 років",
+          "steeringColumn": "Карбон",
+          "dashboardProtection": "IP65"
         },
         "features": {
           "display": true,
@@ -120,9 +128,9 @@
           "seatsAmount": 1,
           "boxes": [
             {
-              "lengthCm": 130,
-              "widthCm": 70,
-              "heightCm": 65,
+              "lengthCm": 132,
+              "widthCm": 69,
+              "heightCm": 63,
               "weightKg": 53.8
             }
           ],
@@ -145,15 +153,15 @@
       "brand": "nami",
       "series": "burn-e",
       "model": "Burn-E MAX",
-      "shortDescription": "Флагман серії — 8400W потужності, 140 км запасу ходу, 4-поршневі гальма та карбонова колонка",
-      "description": "Nami Burn-E MAX — це потужність без компромісів. Створена для довгих подорожей та великих просторів, вона поєднує абсолютний комфорт, яскравий дизайн та повний контроль. Батарея 72V 40Ah (2880 Wh) забезпечує до 140 км запасу ходу. Подвійний мотор 2×1500W з максимальною потужністю 8400W, 4-поршневі гідравлічні гальма та регульована підвіска KKE 165 мм — еталон серед преміальних електросамокатів.",
+      "shortDescription": "Абсолютний флагман | 2×1500W / 8400W пік, 140 км ходу, 4-поршневі гальма, контролер 50A x2, розгін 0-25 за 1.4с",
+      "description": "Nami Burn-E MAX — потужність без компромісів. Подвійний мотор 2×1500W з піковою потужністю 8400W та контролером 50A x2 забезпечує розгін від 0 до 25 км/год за 1.4 секунди. Батарея 72V 40Ah (2880 Wh) — до 140 км реального ходу. Трубчаста рама з алюмінію (гарантія 5 років), карбонова колонка керма, регульована гідравлічна підвіска KKE 165 мм. Гідравлічні гальма 160 мм з 4 поршнями, гальмівна відстань 3.6 м. Безкамерні шини CST 11\", NFC, повний LED, дисплей з IP65 захистом.",
       "categoryId": "tier-premium",
       "categoryIds": [
         "tier-premium",
         "use-case-performance"
       ],
-      "priceUsdCents": 485900,
-      "priceUSD": 4859,
+      "priceUsdCents": 415000,
+      "priceUSD": 4150,
       "inStock": false,
       "shippingDays": 14,
       "preorder": true,
@@ -186,9 +194,9 @@
           "id": "nami-burn-e-max",
           "name": "Default",
           "sku": "NM-BEM-001",
-          "price": 485900,
-          "priceUsdCents": 485900,
-          "priceUSD": 4859,
+          "price": 415000,
+          "priceUsdCents": 415000,
+          "priceUSD": 4150,
           "inStock": false,
           "attributes": {}
         }
@@ -197,12 +205,16 @@
         "performance": {
           "maxSpeed": 105,
           "range": 140,
-          "maxLoad": 150
+          "acceleration025": 1.4,
+          "brakingDistance": 3.6,
+          "maxLoad": 120
         },
         "motor": {
           "count": 2,
-          "powerPerMotor": 4200,
-          "totalPower": 8400,
+          "powerPerMotor": 1500,
+          "peakPower": 8400,
+          "totalPower": 3000,
+          "controller": "50A x 2",
           "type": "hub"
         },
         "battery": {
@@ -217,10 +229,13 @@
           "chargerSpec": "72V 5A"
         },
         "physical": {
-          "weight": 50,
-          "wheelSize": 10,
+          "weight": 53.1,
+          "wheelSize": 11,
           "wheelType": "pneumatic",
-          "foldable": true
+          "tireSpec": "CST 11\" Tubeless road",
+          "foldable": true,
+          "dimensions": { "length": 132, "width": 69, "height": 133 },
+          "foldedDimensions": { "length": 132, "width": 69, "height": 63 }
         },
         "safety": {
           "waterRating": "IPX5",
@@ -228,7 +243,10 @@
           "brakePistons": 4,
           "suspensionFront": "hydraulic",
           "suspensionRear": "hydraulic",
-          "suspensionAdjustable": true
+          "suspensionAdjustable": true,
+          "frameType": "Трубчастий алюмінієвий, гарантія 5 років",
+          "steeringColumn": "Карбон",
+          "dashboardProtection": "IP65"
         },
         "features": {
           "display": true,
@@ -247,9 +265,9 @@
           "seatsAmount": 1,
           "boxes": [
             {
-              "lengthCm": 130,
-              "widthCm": 70,
-              "heightCm": 65,
+              "lengthCm": 132,
+              "widthCm": 69,
+              "heightCm": 63,
               "weightKg": 58.1
             }
           ],
@@ -272,8 +290,8 @@
       "brand": "nami",
       "series": "blast",
       "model": "Blast",
-      "shortDescription": "Кросовер між Burn-E та Klima — перевернута вилка, 85 км запасу ходу",
-      "description": "Nami Blast — справжній кросовер, що поєднує потужність, комфорт та універсальність. Запатентована перевернута передня вилка забезпечує виняткове поглинання ударів. Трубчаста рама гарантує стабільність та безпеку, а батарея 60V 29Ah (1740 Wh) — до 85 км запасу ходу. Гідравлічна підвіска KKE 150 мм, гідравлічні гальма та безкамерні шини 11 дюймів — готовий до будь-яких умов.",
+      "shortDescription": "Кросовер місто-передмістя | Запатентована перевернута вилка, 2×1000W / 5376W пік, 85 км ходу, 45.3 кг",
+      "description": "Nami Blast — справжній кросовер між містом та передмістям. Запатентована перевернута передня вилка забезпечує виняткове поглинання ударів. Подвійний мотор 2×1000W з піковою потужністю 5376W та контролером 50A x2. Батарея 60V 29Ah (1740 Wh) — до 85 км реального ходу. Трубчаста рама забезпечує стабільність та безпеку. Гідравлічна підвіска KKE 150 мм, гідравлічні гальма 140 мм (2 поршні), безкамерні шини CST 11\". NFC, IP65 дисплей, IPX5 захист.",
       "categoryId": "tier-premium",
       "categoryIds": [
         "tier-premium",
@@ -333,19 +351,21 @@
       "specs": {
         "performance": {
           "maxSpeed": 70,
-          "range": 80,
+          "range": 85,
           "maxLoad": 120
         },
         "motor": {
           "count": 2,
-          "powerPerMotor": 1500,
-          "totalPower": 3000,
+          "powerPerMotor": 1000,
+          "peakPower": 5376,
+          "totalPower": 2000,
+          "controller": "50A x 2",
           "type": "hub"
         },
         "battery": {
           "voltage": 60,
-          "capacity": 28,
-          "wattHours": 1680,
+          "capacity": 29,
+          "wattHours": 1740,
           "cells": "Samsung",
           "chargeTime": {
             "min": 6,
@@ -354,10 +374,13 @@
           "chargerSpec": "60V 5A"
         },
         "physical": {
-          "weight": 33,
-          "wheelSize": 10,
+          "weight": 45.3,
+          "wheelSize": 11,
           "wheelType": "pneumatic",
-          "foldable": true
+          "tireSpec": "CST 11\" Tubeless road",
+          "foldable": true,
+          "dimensions": { "length": 130, "width": 69, "height": 127 },
+          "foldedDimensions": { "length": 130, "width": 69, "height": 57 }
         },
         "safety": {
           "waterRating": "IPX5",
@@ -365,7 +388,9 @@
           "brakePistons": 2,
           "suspensionFront": "inverted fork",
           "suspensionRear": "hydraulic",
-          "suspensionAdjustable": true
+          "suspensionAdjustable": true,
+          "frameType": "Трубчастий алюмінієвий",
+          "dashboardProtection": "IP65"
         },
         "features": {
           "display": true,
@@ -385,8 +410,8 @@
           "boxes": [
             {
               "lengthCm": 130,
-              "widthCm": 70,
-              "heightCm": 65,
+              "widthCm": 69,
+              "heightCm": 57,
               "weightKg": 50.3
             }
           ],
@@ -409,8 +434,8 @@
       "brand": "nami",
       "series": "blast",
       "model": "Blast MAX",
-      "shortDescription": "Потужна версія Blast — 8400W, батарея 72V 40Ah, 100 км запасу ходу",
-      "description": "Nami Blast MAX — екстремальна потужність, далекобійність та абсолютний комфорт. Подвійний мотор 2×1500W з максимальною потужністю 8400W, батарея 72V 40Ah (2880 Wh) та запас ходу до 100 км. Розгін від 0 до 25 км/год за 1.5 секунди. Гідравлічна підвіска KKE, гідравлічні гальма та безкамерні шини CST 11 дюймів для ідеальної поведінки на дорозі.",
+      "shortDescription": "Максимальний кросовер | 2×1500W / 8400W пік, 72V 40Ah, 100 км ходу, розгін 0-25 за 1.5с",
+      "description": "Nami Blast MAX — екстремальна потужність та далекобійність у форматі кросовера. Подвійний мотор 2×1500W з піковою потужністю 8400W та контролером 50A x2 забезпечує розгін від 0 до 25 км/год за 1.5 секунди. Батарея 72V 40Ah (2880 Wh) — до 100 км реального ходу. Запатентована перевернута передня вилка, гідравлічна підвіска KKE 150 мм, гідравлічні гальма 140 мм (2 поршні), гальмівна відстань 3.8 м. Безкамерні шини CST 11\", NFC, IP65 дисплей, IPX5 захист.",
       "categoryId": "tier-premium",
       "categoryIds": [
         "tier-premium",
@@ -461,30 +486,37 @@
         "performance": {
           "maxSpeed": 70,
           "range": 100,
+          "acceleration025": 1.5,
+          "brakingDistance": 3.8,
           "maxLoad": 120
         },
         "motor": {
           "count": 2,
           "powerPerMotor": 1500,
+          "peakPower": 8400,
           "totalPower": 3000,
+          "controller": "50A x 2",
           "type": "hub"
         },
         "battery": {
-          "voltage": 60,
-          "capacity": 35,
-          "wattHours": 2100,
+          "voltage": 72,
+          "capacity": 40,
+          "wattHours": 2880,
           "cells": "Samsung",
           "chargeTime": {
             "min": 8,
             "max": 10
           },
-          "chargerSpec": "60V 5A"
+          "chargerSpec": "72V 5A"
         },
         "physical": {
-          "weight": 35,
-          "wheelSize": 10,
+          "weight": 48.2,
+          "wheelSize": 11,
           "wheelType": "pneumatic",
-          "foldable": true
+          "tireSpec": "CST 11\" Tubeless road",
+          "foldable": true,
+          "dimensions": { "length": 130, "width": 69, "height": 127 },
+          "foldedDimensions": { "length": 130, "width": 69, "height": 57 }
         },
         "safety": {
           "waterRating": "IPX5",
@@ -492,7 +524,9 @@
           "brakePistons": 2,
           "suspensionFront": "inverted fork",
           "suspensionRear": "hydraulic",
-          "suspensionAdjustable": true
+          "suspensionAdjustable": true,
+          "frameType": "Трубчастий алюмінієвий",
+          "dashboardProtection": "IP65"
         },
         "features": {
           "display": true,
@@ -512,8 +546,8 @@
           "boxes": [
             {
               "lengthCm": 130,
-              "widthCm": 70,
-              "heightCm": 65,
+              "widthCm": 69,
+              "heightCm": 57,
               "weightKg": 53.2
             }
           ],
@@ -536,8 +570,8 @@
       "brand": "nami",
       "series": "klima",
       "model": "Klima",
-      "shortDescription": "Міський самокат з подвійним мотором, 100 км запасу ходу та гідравлічною підвіскою",
-      "description": "Nami Klima — міська спритність на вищому рівні. Комфортна, потужна та безпечна, вона адаптується до щоденних поїздок містом та за його межами. Компактний формат, колеса 11 дюймів tubeless та гідравлічна підвіска KKE дозволяють проїхати будь-де. Подвійний мотор 2×1000W, батарея 60V 25Ah (1500 Wh) та 100 км запасу ходу для активного міського використання.",
+      "shortDescription": "Міський подвійний мотор | 2×1000W / 5376W пік, 100 км ходу, 37.6 кг, гідропідвіска KKE 150 мм",
+      "description": "Nami Klima — міська спритність преміум класу. Подвійний мотор 2×1000W з піковою потужністю 5376W та контролером 40A x2 забезпечує розгін від 0 до 25 км/год за 1.6 секунди. Батарея 60V 25Ah (1500 Wh) — до 100 км реального ходу. Компактний формат, безкамерні шини CST 11\", регульована гідравлічна підвіска KKE 150 мм. Гідравлічні гальма 140 мм (2 поршні), гальмівна відстань 4.8 м. NFC, повний LED з поворотниками, IP65 дисплей, IPX5 захист.",
       "categoryId": "tier-mid",
       "categoryIds": [
         "tier-mid",
@@ -602,13 +636,17 @@
       "specs": {
         "performance": {
           "maxSpeed": 60,
-          "range": 70,
-          "maxLoad": 120
+          "range": 100,
+          "acceleration025": 1.6,
+          "brakingDistance": 4.8,
+          "maxLoad": 110
         },
         "motor": {
           "count": 2,
           "powerPerMotor": 1000,
+          "peakPower": 5376,
           "totalPower": 2000,
+          "controller": "40A x 2",
           "type": "hub"
         },
         "battery": {
@@ -624,9 +662,12 @@
         },
         "physical": {
           "weight": 37.6,
-          "wheelSize": 10,
+          "wheelSize": 11,
           "wheelType": "pneumatic",
-          "foldable": true
+          "tireSpec": "CST 11\" Tubeless road",
+          "foldable": true,
+          "dimensions": { "length": 127, "width": 69, "height": 133 },
+          "foldedDimensions": { "length": 127, "width": 69, "height": 67 }
         },
         "safety": {
           "waterRating": "IPX5",
@@ -634,7 +675,8 @@
           "brakePistons": 2,
           "suspensionFront": "hydraulic",
           "suspensionRear": "hydraulic",
-          "suspensionAdjustable": true
+          "suspensionAdjustable": true,
+          "dashboardProtection": "IP65"
         },
         "features": {
           "display": true,
@@ -653,9 +695,9 @@
           "seatsAmount": 1,
           "boxes": [
             {
-              "lengthCm": 130,
-              "widthCm": 70,
-              "heightCm": 65,
+              "lengthCm": 127,
+              "widthCm": 69,
+              "heightCm": 67,
               "weightKg": 42.6
             }
           ],
@@ -678,8 +720,8 @@
       "brand": "nami",
       "series": "klima",
       "model": "Klima MAX",
-      "shortDescription": "Покращена Klima — 120 км запасу ходу, подвійний мотор та збільшена батарея",
-      "description": "Nami Klima MAX поєднує всі переваги Klima з посиленими характеристиками. Потужна міська модель для тих, хто хоче потужний, надійний та завжди приємний у керуванні самокат. Подвійний мотор, батарея 60V 30Ah (1800 Wh), контролер 40A×2 та 120 км запасу ходу. Компактний формат із підвіскою KKE для ідеального комфорту.",
+      "shortDescription": "Витривала міська | 2×1000W / 5375W пік, 60V 30Ah, 120 км ходу, контролер 40A x2",
+      "description": "Nami Klima MAX — всі переваги Klima з посиленими характеристиками. Подвійний мотор 2×1000W з піковою потужністю 5375W та контролером 40A x2, розгін від 0 до 25 км/год за 1.6 секунди. Батарея 60V 30Ah (1800 Wh) — до 120 км реального ходу. Компактний формат, безкамерні шини CST 11\", регульована гідравлічна підвіска KKE 150 мм. Гідравлічні гальма 140 мм (2 поршні), гальмівна відстань 4.8 м. NFC, повний LED з поворотниками, IP65 дисплей, IPX5 захист.",
       "categoryId": "tier-mid",
       "categoryIds": [
         "tier-mid",
@@ -734,19 +776,23 @@
       "specs": {
         "performance": {
           "maxSpeed": 60,
-          "range": 80,
-          "maxLoad": 120
+          "range": 120,
+          "acceleration025": 1.6,
+          "brakingDistance": 4.8,
+          "maxLoad": 110
         },
         "motor": {
           "count": 2,
           "powerPerMotor": 1000,
+          "peakPower": 5375,
           "totalPower": 2000,
+          "controller": "40A x 2",
           "type": "hub"
         },
         "battery": {
           "voltage": 60,
-          "capacity": 28,
-          "wattHours": 1680,
+          "capacity": 30,
+          "wattHours": 1800,
           "cells": "Samsung",
           "chargeTime": {
             "min": 7,
@@ -756,9 +802,12 @@
         },
         "physical": {
           "weight": 38.3,
-          "wheelSize": 10,
+          "wheelSize": 11,
           "wheelType": "pneumatic",
-          "foldable": true
+          "tireSpec": "CST 11\" Tubeless road",
+          "foldable": true,
+          "dimensions": { "length": 127, "width": 69, "height": 133 },
+          "foldedDimensions": { "length": 127, "width": 69, "height": 67 }
         },
         "safety": {
           "waterRating": "IPX5",
@@ -766,7 +815,8 @@
           "brakePistons": 2,
           "suspensionFront": "hydraulic",
           "suspensionRear": "hydraulic",
-          "suspensionAdjustable": true
+          "suspensionAdjustable": true,
+          "dashboardProtection": "IP65"
         },
         "features": {
           "display": true,
@@ -785,9 +835,9 @@
           "seatsAmount": 1,
           "boxes": [
             {
-              "lengthCm": 130,
-              "widthCm": 70,
-              "heightCm": 65,
+              "lengthCm": 127,
+              "widthCm": 69,
+              "heightCm": 67,
               "weightKg": 43.3
             }
           ],
@@ -810,8 +860,8 @@
       "brand": "nami",
       "series": "klima",
       "model": "Klima ONE",
-      "shortDescription": "Найдоступніша модель серії — 150 км запасу ходу, легка та маневрена",
-      "description": "Nami Klima ONE — найдоступніша версія лінійки, створена для міста. Компактна, легка та плавна в керуванні, вона пропонує комфортну та інтуїтивну їзду без компромісів. Двомоторна конфігурація з контролером 40A в режимі одного мотора для максимальної ефективності, гідравлічна підвіска KKE, батарея 60V 25Ah (1500 Wh) та вражаючий запас ходу 150 км. Вага лише 33.8 кг.",
+      "shortDescription": "Найлегша в серії Klima | 2 мотори з 1 контролером 40A, 150 км ходу, 33.8 кг, гідропідвіска KKE",
+      "description": "Nami Klima ONE — найдоступніша версія лінійки Klima, створена для міста. Два мотори 2×1000W з одним контролером 40A для максимальної ефективності та піковою потужністю 2688W. Батарея 60V 25Ah (1500 Wh) — вражаючі 150 км реального ходу. Вага лише 33.8 кг. Регульована гідравлічна підвіска KKE 150 мм, гідравлічні гальма 140 мм (2 поршні), безкамерні шини CST 11\". NFC, повний LED з поворотниками, IP65 дисплей, IPX5 захист.",
       "categoryId": "tier-mid",
       "categoryIds": [
         "tier-mid",
@@ -876,19 +926,21 @@
       "specs": {
         "performance": {
           "maxSpeed": 50,
-          "range": 60,
-          "maxLoad": 100
+          "range": 150,
+          "maxLoad": 110
         },
         "motor": {
-          "count": 1,
+          "count": 2,
           "powerPerMotor": 1000,
-          "totalPower": 1000,
+          "peakPower": 2688,
+          "totalPower": 2000,
+          "controller": "40A x 1",
           "type": "hub"
         },
         "battery": {
           "voltage": 60,
-          "capacity": 21,
-          "wattHours": 1260,
+          "capacity": 25,
+          "wattHours": 1500,
           "cells": "Samsung",
           "chargeTime": {
             "min": 5,
@@ -897,10 +949,13 @@
           "chargerSpec": "60V 5A"
         },
         "physical": {
-          "weight": 28,
-          "wheelSize": 10,
+          "weight": 33.8,
+          "wheelSize": 11,
           "wheelType": "pneumatic",
-          "foldable": true
+          "tireSpec": "CST 11\" Tubeless road",
+          "foldable": true,
+          "dimensions": { "length": 127, "width": 69, "height": 133 },
+          "foldedDimensions": { "length": 127, "width": 69, "height": 67 }
         },
         "safety": {
           "waterRating": "IPX5",
@@ -908,7 +963,8 @@
           "brakePistons": 2,
           "suspensionFront": "hydraulic",
           "suspensionRear": "hydraulic",
-          "suspensionAdjustable": true
+          "suspensionAdjustable": true,
+          "dashboardProtection": "IP65"
         },
         "features": {
           "display": true,
@@ -926,9 +982,9 @@
           "seatsAmount": 1,
           "boxes": [
             {
-              "lengthCm": 130,
-              "widthCm": 70,
-              "heightCm": 65,
+              "lengthCm": 127,
+              "widthCm": 69,
+              "heightCm": 67,
               "weightKg": 38.8
             }
           ],
@@ -951,8 +1007,8 @@
       "brand": "nami",
       "series": "stellar",
       "model": "Stellar",
-      "shortDescription": "Легкий міський самокат — 26.5 кг, 50 км запасу ходу, ідеальний для щоденних поїздок",
-      "description": "Nami Stellar — міський самокат нового покоління: легкий, маневрений та потужний. Спрощує поїздки містом навіть на підйомах, забезпечуючи комфорт, безпеку та стильний дизайн. Одномоторна конфігурація 1×1000W, батарея 52V 15.6Ah (786 Wh), безкамерні шини 9 дюймів. Пружинна підвіска, NFC, повний LED з поворотниками та сертифікація IPX5.",
+      "shortDescription": "Найлегший у лінійці | 1×1000W / 1470W пік, 52V, 50 км ходу, 26.5 кг, пружинна підвіска",
+      "description": "Nami Stellar — міський самокат нового покоління. Одномоторна конфігурація 1×1000W з піковою потужністю 1470W та контролером 25A, розгін від 0 до 25 км/год за 3.8 секунди. Батарея 52V 15.6Ah (786 Wh) — до 50 км реального ходу. Вага лише 26.5 кг. Пружинна підвіска, тросові гальма 140 мм (2 поршні), гальмівна відстань 3.5 м. Безкамерні шини CST 9\", NFC, повний LED з поворотниками, IP65 дисплей, IPX5 захист. Компактний та складний.",
       "categoryId": "tier-entry",
       "categoryIds": [
         "tier-entry",
@@ -1017,52 +1073,63 @@
       "specs": {
         "performance": {
           "maxSpeed": 40,
-          "range": 45,
-          "maxLoad": 100
+          "range": 50,
+          "acceleration025": 3.8,
+          "brakingDistance": 3.5,
+          "maxLoad": 110
         },
         "motor": {
           "count": 1,
-          "powerPerMotor": 750,
-          "totalPower": 750,
+          "powerPerMotor": 1000,
+          "peakPower": 1470,
+          "totalPower": 1000,
+          "controller": "25A x 1",
           "type": "hub"
         },
         "battery": {
-          "voltage": 48,
-          "capacity": 15,
-          "wattHours": 720,
+          "voltage": 52,
+          "capacity": 15.6,
+          "wattHours": 786,
           "cells": "Samsung",
           "chargeTime": {
             "min": 4,
             "max": 6
           },
-          "chargerSpec": "48V 2A"
+          "chargerSpec": "52V 2A"
         },
         "physical": {
-          "weight": 22,
+          "weight": 26.5,
           "wheelSize": 9,
           "wheelType": "pneumatic",
-          "foldable": true
+          "tireSpec": "CST 9\" Tubeless road",
+          "foldable": true,
+          "dimensions": { "length": 120, "width": 62, "height": 136 },
+          "foldedDimensions": { "length": 120, "width": 62, "height": 57 }
         },
         "safety": {
-          "waterRating": "IPX4",
-          "brakeType": "Механічні дискові",
+          "waterRating": "IPX5",
+          "brakeType": "Тросові 140 мм, 2 поршні",
+          "brakePistons": 2,
           "suspensionFront": "spring",
-          "suspensionRear": "spring"
+          "suspensionRear": "spring",
+          "dashboardProtection": "IP65"
         },
         "features": {
           "display": true,
           "cruiseControl": true,
+          "nfc": true,
           "app": true,
-          "regenerativeBrake": true
+          "regenerativeBrake": true,
+          "turnSignals": true
         },
         "shipping": {
           "weightKg": 31.5,
           "seatsAmount": 1,
           "boxes": [
             {
-              "lengthCm": 130,
-              "widthCm": 70,
-              "heightCm": 65,
+              "lengthCm": 120,
+              "widthCm": 62,
+              "heightCm": 57,
               "weightKg": 31.5
             }
           ],
@@ -1085,8 +1152,8 @@
       "brand": "nami",
       "series": "stellar",
       "model": "Super Stellar",
-      "shortDescription": "Компактний двомоторний — 75 км запасу ходу, спритність та потужність у міському форматі",
-      "description": "Nami Super Stellar — легка, потужна та розумна. Два мотори 2×1000W з потужністю до 2940W, батарея 52V 25Ah (1277 Wh) та 75 км запасу ходу. Розгін від 0 до 25 км/год за 2.2 секунди. Гідравлічні гальма, пружинна підвіска, безкамерні шини 9 дюймів. Компактна та складна — ідеальне рішення для міської електромобільності без компромісів.",
+      "shortDescription": "Компактний двомоторний | 2×1000W / 2940W пік, 52V 25Ah, 75 км ходу, гідравлічні гальма, 30 кг",
+      "description": "Nami Super Stellar — компактна потужність з двома моторами. Два мотори 2×1000W з піковою потужністю 2940W та контролером 25A x2, розгін від 0 до 25 км/год за 2.2 секунди. Батарея 52V 25Ah (1277 Wh) — до 75 км реального ходу. Вага 30 кг. Пружинна підвіска, гідравлічні гальма 140 мм (2 поршні), гальмівна відстань 2.9 м. Безкамерні шини CST 9\", NFC, повний LED з поворотниками, IP65 дисплей, IPX5 захист.",
       "categoryId": "tier-mid",
       "categoryIds": [
         "tier-mid",
@@ -1151,44 +1218,54 @@
       "specs": {
         "performance": {
           "maxSpeed": 55,
-          "range": 65,
-          "maxLoad": 120
+          "range": 75,
+          "acceleration025": 2.2,
+          "brakingDistance": 2.9,
+          "maxLoad": 110
         },
         "motor": {
           "count": 2,
-          "powerPerMotor": 750,
-          "totalPower": 1500,
+          "powerPerMotor": 1000,
+          "peakPower": 2940,
+          "totalPower": 2000,
+          "controller": "25A x 2",
           "type": "hub"
         },
         "battery": {
-          "voltage": 48,
-          "capacity": 21,
-          "wattHours": 1008,
+          "voltage": 52,
+          "capacity": 25,
+          "wattHours": 1277,
           "cells": "Samsung",
           "chargeTime": {
             "min": 5,
             "max": 7
           },
-          "chargerSpec": "48V 2A"
+          "chargerSpec": "52V 2A"
         },
         "physical": {
-          "weight": 26,
+          "weight": 30,
           "wheelSize": 9,
           "wheelType": "pneumatic",
-          "foldable": true
+          "tireSpec": "CST 9\" Tubeless road",
+          "foldable": true,
+          "dimensions": { "length": 120, "width": 62, "height": 136 },
+          "foldedDimensions": { "length": 120, "width": 62, "height": 57 }
         },
         "safety": {
-          "waterRating": "IPX4",
+          "waterRating": "IPX5",
           "brakeType": "Гідравлічні 140 мм, 2 поршні",
           "brakePistons": 2,
           "suspensionFront": "spring",
-          "suspensionRear": "spring"
+          "suspensionRear": "spring",
+          "dashboardProtection": "IP65"
         },
         "features": {
           "display": true,
           "cruiseControl": true,
+          "nfc": true,
           "app": true,
           "regenerativeBrake": true,
+          "turnSignals": true,
           "dualMotorMode": true
         },
         "shipping": {
@@ -1196,9 +1273,9 @@
           "seatsAmount": 1,
           "boxes": [
             {
-              "lengthCm": 130,
-              "widthCm": 70,
-              "heightCm": 65,
+              "lengthCm": 120,
+              "widthCm": 62,
+              "heightCm": 57,
               "weightKg": 35
             }
           ],
@@ -1215,8 +1292,8 @@
     }
   ],
   "metadata": {
-    "syncedAt": "2026-02-24T20:31:35.250Z",
-    "source": "@scootify/shared/db",
+    "syncedAt": "2026-02-25T12:00:00.000Z",
+    "source": "nami-electric.com (official)",
     "domain": "nami.com.ua"
   }
 }
