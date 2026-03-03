@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
-import { MetallicText, ProductTile, Icon } from '@/components/ui';
+import { MetallicText, ProductTile } from '@/components/ui';
 import { getAllProductsAsync, productToTileData, getProductsBySeries, getSeriesInOrder } from '@/lib/products';
 import { initExchangeRate } from '@scootify/shared/lib/currency';
 import {
@@ -12,7 +12,7 @@ import styles from './page.module.css';
 
 export const metadata: Metadata = {
   title: 'NAMI | Електросамокати преміум класу — купити в Україні',
-  description: 'Nami електросамокати — повна лінійка від Stellar до Burn-E MAX. Потужність до 8400W, гідравлічна підвіска, IPX5. Запас ходу до 150 км. Доставка по Україні.',
+  description: 'Nami електросамокати — повна лінійка від Stellar до Burn-E MAX. Потужність до 8400W, гідравлічна підвіска, IPX5. Запас ходу до 150 км. Характеристики та огляди.',
   alternates: { canonical: '/' },
 };
 
@@ -63,7 +63,7 @@ export default async function HomePage() {
             <p className={styles.heroSubtitle}>
               Повна лінійка Nami Electric — від компактного Stellar до флагманського Burn-E MAX.
               Гідравлічна підвіска, NFC, IPX5 захист, до 8400W потужності. 9 моделей на будь-який стиль їзди.
-              Орієнтовні ціни в USD.
+              Детальні характеристики та порівняння.
             </p>
 
             {heroProduct && heroImage && (
@@ -95,10 +95,6 @@ export default async function HomePage() {
             </div>
             <div className={styles.heroCTA}>
               <a href="#catalog" className="btn-primary">Переглянути каталог</a>
-              <a href="https://t.me/scootify_eco" target="_blank" rel="noopener noreferrer" className={styles.heroSecondary}>
-                <Icon name="telegram" size="sm" />
-                Консультація в Telegram
-              </a>
             </div>
           </div>
         </section>
@@ -132,7 +128,7 @@ export default async function HomePage() {
           })}
 
           <p className={styles.disclaimer}>
-            Ціни орієнтовні. Остаточна вартість визначається після консультації з дистриб&apos;ютором.
+            Ціни орієнтовні та наведені для порівняння моделей.
           </p>
 
         </section>
